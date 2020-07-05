@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+  /*right: 0px;*/
+  position: relative;
+  z-index: 1;
+}
+
+.sidebar {
+  position: absolute;
+  z-index: 100;
+  width: 325px;
+  max-width: 100%;
+  overflow-y: scroll;
+  height: calc(100vh - 60px);
+  top: 5%;
+  color:#b8b7ad;
+
+}
+
+/*adding to have space on venue name on sidelist*/
+.listItem {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/*****************Style for hamb menu***************************/
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  left: 20px;
+  top: 24px;
+  background: #7f7f7f;
+  z-index: 50;
+  }
+  
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+  }
+  
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 34px;
+  width: 34px;
+  right: 0px;
+  top: 0px;
+  background-color: #000000;
+  }
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+  }
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  font-size: 1.15em;
+}
+  
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+  }
+  
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
