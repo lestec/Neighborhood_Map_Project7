@@ -48,7 +48,7 @@ export default class Map extends Component {
 		return (
 		  <MyMapComponent
 		    {...this.props}
-		    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=GET-API-KEY"
+		    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=ADD-YOUR-API-KEY"
 			loadingElement={<div style={{ height: `100%` }} />}
 		    containerElement={<div id="map" style={{ height: `100vh`, width: `100%` }} />}
 		    mapElement={<div className="map-flex" style={{ height: `100%` }} />}
